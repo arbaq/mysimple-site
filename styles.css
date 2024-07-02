@@ -1,10 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 50px;
+/* styles.css */
+
+/* Resetting default list styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #333;
+/* Styling the menu items */
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust text color */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Adjust color on hover */
 }
